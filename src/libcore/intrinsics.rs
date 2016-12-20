@@ -648,7 +648,7 @@ extern "rust-intrinsic" {
     /// Gets an identifier which is globally unique to the specified type. This
     /// function will return the same value for a type regardless of whichever
     /// crate it is invoked in.
-    pub fn type_id<T: ?Sized + 'static>() -> u64;
+    pub fn type_id<T: ?Sized>() -> u64;
 
     /// Creates a value initialized to zero.
     ///

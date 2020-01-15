@@ -286,6 +286,7 @@
 #![feature(negative_impls)]
 #![feature(never_type)]
 #![feature(nll)]
+#![feature(once_cell)]
 #![feature(optin_builtin_traits)]
 #![feature(or_patterns)]
 #![feature(panic_info_message)]

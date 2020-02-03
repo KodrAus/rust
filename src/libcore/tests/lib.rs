@@ -14,6 +14,7 @@
 #![feature(hashmap_internals)]
 #![feature(try_find)]
 #![feature(is_sorted)]
+#![feature(once_cell)]
 #![feature(pattern)]
 #![feature(range_is_empty)]
 #![feature(raw)]
@@ -60,6 +61,7 @@ mod fmt;
 mod hash;
 mod intrinsics;
 mod iter;
+mod lazy;
 mod manually_drop;
 mod mem;
 mod nonzero;
